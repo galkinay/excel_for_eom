@@ -1,5 +1,5 @@
-Public Function ÏÀÄÅÍÈÅ230(sConductor, lCable, iFase, aConductors)
+Public Function ПАДЕНИЕ230(sConductor, lCable, iFase, aConductors)
     zUd = Sqr((0.018 / sConductor) ^ 2 + 0.0000000036)
     z = (zUd * lCable) / aConductors
-    ÏÀÄÅÍÈÅ230 = (z * iFase) / 230
+    ПАДЕНИЕ230 = (z * iFase) / 230
 End Function
